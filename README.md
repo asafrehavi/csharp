@@ -13,4 +13,20 @@ The reciever waiting for events from c#
 <br />
 The nodejs side exist at the nodejs repo
 <br />
+<b>
+In order to set the management url on  we should  do the following steps 
+</b>
+<br />
+go to the rabbitmq install  folder (sbin) folder 
+<br />
+run the follwing command
+<br />
+rabbitmq-plugins.bat enable rabbitmq_management
+<br />
+after run this command restart rabbitmq service (windows)
+<br />
+for more information you can see good medium article:
+<br />
+https://medium.com/geekculture/installing-rabbitmq-on-windows-4411f5114a84
+
 #thanks to https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html for the example
